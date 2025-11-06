@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width" />
+<title>Amarnath Ravva</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" type="image/x-icon" href="http://svr.amarravva.com/wp-content/themes/american/favicon.ico">
+<link rel="pingback" href="http://amarravva.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://svr.amarravva.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://svr.amarravva.com/wp-content/themes/american/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://svr.amarravva.com/wp-content/themes/american/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://code.jquery.com/jquery.min.js'></script>
+<script type='text/javascript' src='http://svr.amarravva.com/wp-content/themes/american/js/jquery-ui-1.8.22.modernizer.custom.min.js'></script>
+<script type='text/javascript' src='http://svr.amarravva.com/wp-content/themes/american/js/video.min.js'></script>
+<script type='text/javascript' src='http://svr.amarravva.com/wp-content/themes/american/js/bigvideo-a.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://amarravva.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://amarravva.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.4" />
+<link rel='canonical' href='http://amarravva.com/' />
+<link rel='shortlink' href='http://amarravva.com/?p=2' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute !important;
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; }
+</style>
+
+<!-- BEGIN Typekit Fonts for WordPress -->
+<script type="text/javascript" src="//use.typekit.net/lyz5elf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!-- END Typekit Fonts for WordPress -->
+
+
+</head>
+
+<body class="home page page-id-2 page-template page-template-page-templatesfull-width-php custom-background full-width single-author">
+
+<div id="mainnav">
+<h1 class="navtitle"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'About']);" class="toggler" id="about">ABOUT</a></h1>
+<h1 class="navtitle"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Books']);" class="toggler" id="book">BOOKS</a></h1>
+<h1 class="navtitle"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Links']);" class="toggler" id="more">LINKS</a></h1>
+<h1 class="navtitle"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Event']);" class="toggler" id="event">EVENT</a></h1>
+<h1 class="navtitle"><a href="http://wpc.9D3F.edgecastcdn.net/009D3F/Sequoia_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Image']);" class="toggler panorama-btn special" id="image">IMAGE</a></h1>
+<h1 class="navtitle"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Clear']);" class="toggler" id="empty">CLEAR</a></h1>
+<script type="text/javascript">
+     $(function() {
+	    $(".binfo").hide();
+            $("#american-text").show();              
+            $(".blurbs").click(function (b) {
+                b.preventDefault();
+                $("#" + $(this).attr("id") + "-text").show().siblings('div').hide();
+		$(this).addClass('active').siblings().removeClass('active')        
+            })
+    });
+    $(function() {
+	    $(".einfo").hide();
+            $("#mehfil-text").show();              
+            $(".events").click(function (c) {
+                c.preventDefault();
+                $("#" + $(this).attr("id") + "-text").show().siblings('div').hide();
+		$(this).addClass('active').siblings().removeClass('active')        
+            })
+	    
+    });
+    $(function() {
+	    $(".pinfo").hide();
+            $("#sequoia-text").show();              
+            $(".panos").click(function (c) {
+                c.preventDefault();
+                $("#" + $(this).attr("id") + "-text").show().siblings('div').hide();
+		$(this).addClass('active').siblings().removeClass('active')        
+            })
+	    
+    });
+        $(function() {              
+            $(".special").click(function (s) {
+                $("#sequoia-text").show().siblings('div').hide();
+		$("#sequoia").addClass('active').siblings().removeClass('active')        
+            })
+	    
+    });
+    $(function () {
+        $(".minfo").hide();
+        $(".toggler").click(function (d) {
+            d.preventDefault();
+            $(".vinfo").hide();
+            $("#" + $(this).attr("id") + "-info").show().siblings('div').hide()
+        })
+    });
+    $(function () {
+        $(".vinfo").hide();
+        $(".playlist-btn").click(function (e) {
+            e.preventDefault();
+            $(".minfo").hide();
+            $("#" + $(this).attr("id") + "-info").show().siblings('div').hide();
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    });
+    $(function () {
+        var BV = new $.BigVideo();
+        BV.init();
+        BV.show('http://wpc.9d3f.edgecastcdn.net/009D3F/Pelling_v1.mp4', {
+            ambient: true
+        });
+        if (!Modernizr.touch) {
+            $("#v0-info").show()
+        }
+        if (Modernizr.touch) {
+            $('#big-video-control-play').css('background-position', '-16px');
+            isPlaying = false
+        }
+        $('.playlist-btn').on('click', function (e) {
+            e.preventDefault();
+            BV.show($(this).attr('href'));
+            $('#big-video-control-play').css('background-position', '0');
+            isPlaying = true
+        })
+	$('.panorama-btn').on('click', function (g) {
+            g.preventDefault();
+            BV.show($(this).attr('href'));
+            $('#big-video-control-play').css('background-position', '0');
+	    $(".playlist-btn").removeClass('active');
+            isPlaying = true
+        })
+
+	    });
+
+</script>
+</div>
+
+<div id="page" class="hfeed site">
+
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-2" class="post-2 page type-page status-publish hentry">
+		
+
+		<div class="entry-content">
+			<div id="about-info" class="minfo box">
+<p><strong>BIO</strong></p>
+<p>California-based writer Amarnath Ravva has performed at LACMA, Machine Project, the MAK Center at the Schindler House, New Langton Arts, the Hammer Museum, USC, Pomona, CalArts, and the Sorbonne. In addition to his writing practice, he is a member of the site specific ambient music supergroup Ambient Force 3000 and for the past eight years he has helped run and curate events at Betalevel, a venue for social experimentation and hands-on culture located in Los Angeles’ Chinatown.</p>
+</div>
+<div id="book-info" class="minfo box">
+<div class="blurblist" style="text-align: right;margin-top:0px;width: 100%;margin-bottom: 8px;">
+<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Book Description']);" class="blurbs active" id="american">1</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Miranda July']);" class="blurbs" id="miranda">2</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Colin Dickey']);" class="blurbs" id="colin">3</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Kevin Killian']);" class="blurbs" id="kevin">4</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Fanny Howe']);" class="blurbs" id="fanny">5</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Nancy Buchanan']);" class="blurbs" id="nancy">6</a>&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Varun Soni']);" class="blurbs" id="varun">7</a></div>
+<p><strong>AMERICAN CANYON</strong><br /><a href="http://kaya.com/books/american-canyon/">KAYA PRESS, SPRING 2014</a></p>
+<p><img src="http://svr.amarravva.com/wp-content/uploads/2013/12/AmericanCanyon_Coversm.jpg" /></p>
+<div id="extol">
+<div id="american-text" class="binfo">
+<p>Blending myth with interviews and first-person narrative, American Canyon uses prose, documentary footage, and still photos to recount the fragmented and ever evolving story of one person’s apprehension of the ghosts of history. This narrative of a son’s love for his mother and the ritual he performs for her takes us from California to Rameswaram, the southern tip of the Indian peninsula. It is a meditation on the moments in history that placed him in front of a small bright fire, a lament for the continual loss of those who, by remembering, let us know who we are.</p>
+</div>
+<div id="miranda-text" class="binfo">
+<p><em>“Ravva unearths myths so gently and casually that history never becomes too grand. His story-filled days accrue power and a bit of magic by the end&mdash;my sense of &#8220;now&#8221; became poignantly unmoored.”</em></p>
+<p>&ndash;Miranda July</p>
+</div>
+<div id="colin-text" class="binfo">
+<p><em>“A mesmerizing and elegiac meditation on identity, nationality, and desire. Ravva coils narratives of India and the American West in on each other, telling a family history that is both fragmented and tender. A phenomenal debut.”</em></p>
+<p>&ndash;Colin Dickey</p>
+</div>
+<div id="kevin-text" class="binfo">
+<p><em>“A complex reworking of memoir form, using the tools of poetry remelted, as in Vulcan’s forge, to slash away at the ghosts and ghouls of conventional prose usage.  The new journalism, Ravva-style, stimulates the nerve endings with its alternately lush and spare renditions of some spectacular settings,  William Kentridge or Gauguin or Florine Stettheimer should be in charge of the art direction when the movie, or opera, appears, but in the meantime sit back and enjoy the calm cool stylings of one of America’s finest young writers.”</em></p>
+<p>&ndash;Kevin Killian</p>
+</div>
+<div id="fanny-text" class="binfo">
+<p><em>“In this book words that are usually strangers to each other are invited into the same paragraph.  They look at each other carefully and the cluster of English words seated politely and obediently around the Telugu makes room for them.  Now a bit of chatter begins.  The words like the way the atmosphere is charged by a free exchange of vocabulary.  This is what is meant to happen in our world at its best.”</em></p>
+<p>&ndash;Fanny Howe</p>
+</div>
+<div id="nancy-text" class="binfo">
+<p><em>“American Canyon is a book like none I have encountered, an almost hallucinatory immediacy offered with rare generosity. Amar Ravva’s tapestry of East and West demonstrates the importance of remembering rituals and histories&mdash;those of both personal and social scale.”</em></p>
+<p>&ndash;Nancy Buchanan</p>
+</div>
+<div id="varun-text" class="binfo">
+<p><em>“Magic and mystery reside in American Canyon&mdash;a place where the ancient meets the contemporary, and where the profane becomes sacred. In this elegant volume, Ravva composes provocative narratives of devotion and defiance that remind us that we are all migrants in mind and memory.”</em></p>
+<p>&ndash;Varun Soni</p>
+</div>
+</div>
+</div>
+<div id="more-info" class="minfo box">
+<p><strong>LINKS</strong><br /><a href="http://videopoetics.org">Videopoetics</a>, <a href="http://betalevel.com">Betalevel</a>, <a href="http://benshi.org">da benshi code</a></p>
+<p><strong>WORK ONLINE</strong><br /><a href="http://www.drunkenboat.com/db10/06fic/ravva/canyon1.html">Drunken Boat, Issue #10</a>, <a href="http://requitedjournal.com/index.php?/form/amarnath-ravva/">Requited</a>, <a href="http://www.outofnothing.org/711/ravva.html">[out of nothing]</a>, <a href="http://la-lit.com/writers/la-lit-6-amarnath-ravva/">LA-lit</a></p>
+<p><strong>IN PRINT</strong><br /><a href="http://www.insertblancpress.net/collections/parrot/products/parrot-17-airline-music-by-amarnath-ravva">Parrot 17: Airline Music</a>, <a href="http://www.amazon.com/Indivisible-Anthology-Contemporary-American-Poetry/dp/155728931X">Indivisible: an Anthology of Contemporary South Asian American Poetry</a>, <a href="http://www.encyclopediaproject.org/">Encyclopedia Project, vol 2</a></p>
+<p><strong>CONTACT</strong><br />amar at videopoetics.org</p>
+<p><strong>CREDITS</strong><br />All videos &amp; timelapses were shot by Amarnath Ravva in California, Sikkim, &#038; Kerala. Website design and development by Amarnath Ravva.</p>
+<p><strong><a href="https://twitter.com/amarravva">TWITTER</a></strong></p>
+<ul style="margin-top: -1rem">
+<li><span class='time-meta'><a href="http://twitter.com/amarravva/statuses/480046805435297792">June 20 &#8211; 05:57:31 PM</a></span>: <span class='entry-content'>England: Somebody gonna get a hurt real bad.</span></li>
+<li><span class='time-meta'><a href="http://twitter.com/amarravva/statuses/479007176342900736">June 17 &#8211; 09:06:25 PM</a></span>: <span class='entry-content'>Wish I was in Brazil! Someday&#8230;<a target='blank' title='theHapacalypse' href="http://twitter.com/theHapacalypse">@theHapacalypse</a></span></li>
+<li><span class='time-meta'><a href="http://twitter.com/amarravva/statuses/465655429016870912">May 12 &#8211; 12:51:20 AM</a></span>: <span class='entry-content'>This just beautiful! <a target="blank" title="http://t.co/d855sL6sG8" href="http://t.co/d855sL6sG8">http://t.co/d855sL6sG8</a></span></li>
+</ul>
+</div>
+<div id="event-info" class="minfo box">
+<div class="blurblist" style="text-align: right;margin-top:0px;width: 100%;margin-bottom: 8px;"><a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Bruce Lee']);" class="events" id="bruce">2/28</a>&nbsp;&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'City Lights']);" class="events" id="city">4/17</a>&nbsp;&nbsp;<a href="" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Mehfil Massive']);" class="events active" id="mehfil">4/23</a></div>
+<div id="extol">
+<div id="mehfil-text" class="einfo">
+<p><strong>MEHFIL MASSIVE</strong><br />South Asian Religions Remixed through Poetry and Music</p>
+<p>USC Visions and Voices<br />
+Wednesday, April 23, 2014 : 7:30pm<br />
+University Park Campus<br />
+Bovard Auditorium (ADM)</p>
+<p>Admission is free. Reservations required. RSVP at the link below beginning Thursday, March 27, at 9 a.m.</p>
+<p>To RSVP, click <a href="http://www.usc.edu/dept/pubrel/visionsandvoices/RSVP/reserve.php?RSVPEvtCode=600">here</a>.</p>
+<p>South Asian musicians and writers will come together to celebrate and investigate the rich diversity of South Asian spiritual influences. In Mughal courts, nightly mehfils brought performers together and elevated their collaborations to high art. This tradition will get a 21st-century update in a landmark evening featuring performances by internationally renowned diasporic South Asian artists including Sufi-influenced rock guitarist Salman Ahmad, vocalist and ten-string double-violin master Gingger Shankar, Mumbai-based dubstep DJ Bandish Projekt and hip hop artist and producer Brooklyn Shanti in collaboration with award-winning poets Kazim Ali, Tarfia Faizullah, Bhanu Kapil, and Amarnath Ravva.</p>
+</div>
+<div id="city-text" class="einfo">
+<p><strong>KAYA PRESS 20th Anniversary Celebration</strong></p>
+<p>City Lights Bookstore <br />
+261 Columbus Avenue,<br />San Francisco, CA 94133<br />
+7:00 p.m., Thursday, April 17, 2014</p>
+<p>City Lights celebrates the 20th year of Kaya Press with performances by</p>
+<p>Sesshu Foster, author of the collection of prose poems about Los Angeles: City Terrace Field Manual</p>
+<p>Gene Oishi, whose novel in stories Foxdrum Bebop is released in March 2014</p>
+<p>Amarnath Ravva, whose experimental prose memoir American Canyon is being published in March 2014</p>
+<p>Shailja Patel, author of the performance/poetry collection Migritude</p>
+</div>
+<div id="bruce-text" class="einfo">
+<p><strong>Enter the Poet: Kaya Press &#038; Kundiman Party at AWP 2014</strong></p>
+<p>Nagomi Tea House<br />
+519 6th Ave. S. Suite 200,<br />Seattle, WA 98104<br />
+8-10:00 p.m., Friday, February 28, 2014</p>
+<p>Kaya Press and Kundiman are joining forces at this year’s AWP Conference to bring you ENTER THE POET: Newly Published Writers Celebrate Bruce Lee — a reading and party featuring a diverse group of writers with new books in Seattle’s historic International District — Lee’s home turf. This party is also to celebrate Kaya Press’s 20th year of publishing innovative Asian Pacific American literature. Come for an incredible line-up of writers, drinks, Bruce Lee projections, and more!</p>
+<p>For lineup and more info, go to <a href="http://kaya.com/2014/02/enter-poet-joint-kaya-press-kundiman-readingparty-awp-2014-seattle/">Kaya Press</a></p>
+</div>
+</div>
+</div>
+<div id="image-info" class="minfo box">
+<div class="blurblist" style="text-align: right;margin-top:0px;width: 100%;margin-bottom: 8px;"><a href="http://wpc.9D3F.edgecastcdn.net/009D3F/Sequoia_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Sequoia Panorama']);" class="panos panorama-btn active" id="sequoia">1</a>&nbsp;<a href="http://wpc.9D3F.edgecastcdn.net/009D3F/Sequoia_Night_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Sequoia Night Panorama']);" class="panos panorama-btn" id="sequoia-night">2</a>&nbsp;<a href="http://wpc.9D3F.edgecastcdn.net/009D3F/Barcelona_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Barcelona']);" class="panos panorama-btn" id="barcelona">3</a>&nbsp;<a href="http://wpc.9D3F.edgecastcdn.net/009D3F/Jaipur_Skyline.mp4" onClick="_gaq.push(['_trackEvent', 'Info', 'View', 'Jaipur Skyline']);" class="panos panorama-btn" id="jaipur">4</a></div>
+<p><strong>PANORAMAS</strong></p>
+<div id="extol">
+<div id="sequoia-text" class="pinfo">
+<img src="http://svr.amarravva.com/wp-content/uploads/2013/12/Sequoia_Panorama_thumb.jpg" /></p>
+<p><strong>Moro Rock, Sequoia National Park.</strong><br />
+Taken in October 2012, this panorama is composed of 9 images shot with a Canon 5dmkII and a Zeiss Makro-Planar T* 100mm lens. 75 1/4&#8243; x 11&#8243; at 300 dpi.</p>
+</div>
+<div id="sequoia-night-text" class="pinfo">
+<img src="http://svr.amarravva.com/wp-content/uploads/2013/12/Sequoia_Night_thumb.jpg" /></p>
+<p><strong>East Side of Moro Rock, Sequoia National Park.</strong><br />
+Taken in October 2012, this panorama is composed of 7 images shot with a Canon 5dmkII and a Zeiss Makro-Planar T* 100mm lens. 68 5/6&#8243; x 11&#8243; at 300 dpi.</p>
+</div>
+<div id="barcelona-text" class="pinfo">
+<img src="http://svr.amarravva.com/wp-content/uploads/2014/01/Antennas_thumb.jpg" /></p>
+<p><strong>Barcelona Rooftop, Spain.</strong><br />
+Taken in June 2012, this panorama is composed of 18 images shot with a Canon 5dmkII and a Zeiss Makro-Planar T* 100mm lens. 102 5/6&#8243; x 10 4/5&#8243; at 300 dpi.</p>
+</div>
+<div id="jaipur-text" class="pinfo">
+<img src="http://svr.amarravva.com/wp-content/uploads/2014/01/Jaipur_thumb.jpg" /></p>
+<p><strong>Jaipur Skyline, Rajasthan, India.</strong><br />
+Taken in January 2012, this panorama is composed of 12 images shot with a Canon 5dmkII and a Zeiss Makro-Planar T* 100mm lens. 59 3/5&#8243; x 11 5/6&#8243; at 300 dpi.</p>
+</div>
+</div>
+</div>
+<div id="empty-info" class="minfo"></div>
+
+		</div><!-- .entry-content -->
+		<footer class="entry-meta">
+			
+		</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+				
+<div id="comments" class="comments-area">
+
+	
+	
+			
+</div><!-- #comments .comments-area -->			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	</div><!-- #main .wrapper -->
+	
+	<!-- #colophon -->
+</div><!-- #page -->
+<div id="excerpts">
+	<div id="v0-info" class="vinfo box">
+	<p>The lake is sped over by large dragonflies, still and reflecting their humming bodies, the mud moving slightly in the shallow pools. Circled by pollen, we swim to the tree lightning has left standing in the shape of a hand. Beneath us, an old forest is waiting for drought after having been buried under years of snow.</p>
+<p style="float:right;">- <em>American Canyon</em></p>
+	</div>
+	<div id="v1-info" class="vinfo box">
+	<p>In Rishikesh, the sky is split with its own light. From the ghat, our flames drift down the river at dusk. The sadhus’ robes cover the steps in orange, and they sing and clap their hands in unison. Their robes were once white. All around them is the smoke of their pyre.</p>
+<p style="float:right;">- <em>American Canyon</em></p>
+	</div>
+	<div id="v2-info" class="vinfo box">
+	<p>Yesterday, I watched the boats in the ocean from the roof of the hotel. Their sails lined the horizon in red, white, and blue. Their wood slid past the water around them gently. The wind blew until they vanished. Closer, by the beach blackened by sewage, a man searched for empty water bottles and dogs barked. Behind them, the fishing boats twirled in circles held by chains that wouldn’t let them go.</p>
+<p style="float:right;">- <em>American Canyon</em></p>
+	</div>
+	<div id="v3-info" class="vinfo box">
+	<p>History is unearthed in Southampton, California. Vents of methane gas jet out of cracks in the dirt beneath the tract homes that stretch from the straits up past our house to Lake Herman. Along Rose Drive, the air clings to swing sets like the spindly whites of old eggs. The earth opens up and swallows entire backyards. Foundations we never had cause to question are now cleaved and splintered.</p>
+<p style="float:right;">- <em>American Canyon</em></p>
+	</div>
+	<div id="v4-info" class="vinfo box">
+	<p style="margin-bottom: 1rem;">For a decade, the India I knew never changed. Under the balance in the cabinet of his shop, Jayjayya still kept three silver coins from the turn of the century for luck. When he looked out into the street, my India was there to greet him.</p> 
+<p>The balcony at the top of the stairs is no longer there. The floor has fallen off into the air above the road. A few metal rods, once held in concrete, dangle where a wall used to be. Across the street, the neighbor is staring out of what once was the front of his house. All our balconies have disappeared, leaving us open to the road below.</p>
+<p style="float:right;">- <em>American Canyon</em></p>
+	</div>
+	</div> 
+<div class="playlist">
+		
+		<a href="http://wpc.9d3f.edgecastcdn.net/009D3F/Pelling_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Pelling']);" class="playlist-btn active" id="v0">1</a>&nbsp;
+                <a href="http://wpc.9d3f.edgecastcdn.net/009D3F/Lilies_v2.mp4" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Lilies']);" class="playlist-btn" id="v1">2</a>&nbsp;
+                <a href="http://wpc.9d3f.edgecastcdn.net/009D3F/Burning_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Burning']);" class="playlist-btn" id="v2">3</a>&nbsp;
+                <a href="http://wpc.9d3f.edgecastcdn.net/009D3F/Stars_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Stars']);" class="playlist-btn" id="v3">4</a>&nbsp;
+		<a href="http://wpc.9d3f.edgecastcdn.net/009D3F/Trains_v1.mp4" onClick="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Trains']);" class="playlist-btn" id="v4">5</a>&nbsp;
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38157894-1']);
+  _gaq.push(['_setDomainName', 'amarravva.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Content Delivery Network via svr.amarravva.com
+
+ Served from: amarravva.com @ 2014-08-14 21:52:17 by W3 Total Cache -->

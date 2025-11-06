@@ -1,0 +1,450 @@
+/* $Id: style.css,v 1.6 2008/07/14 01:41:22 add1sun Exp $ */
+
+/* Reset the basic elements to a baseline. */
+body {
+  color: #333;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  font-size: 12px;
+}
+
+a:link {
+  color: #000;
+  text-decoration:none;
+}
+#page a:link {
+	text-decoration:underline;
+}
+a:visited {
+  color: #000;
+  text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:active {
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 100%;
+}
+h2 {
+	font-size:150%;
+	margin-bottom:7px;
+}
+h3 {
+	font-size:125%;
+	margin-bottom:7px;
+}
+p, ul, ol {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 100%;
+}
+li {
+  margin: 0px;
+  padding: 0px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  font-size: inherit;
+}
+caption {
+  text-align: left;
+}
+th {
+  border-bottom-width: 1px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  text-align: left;
+}
+td {
+  font-size: 100%;
+}
+form {
+  margin: 0px;
+  padding: 0px;
+}
+fieldset {
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+}
+b, strong {
+  font-weight: bold;
+}
+i, em, u {
+  font-style: italic;
+}
+u {
+  text-decoration: none;
+}
+a img {
+  border: 0px;
+}
+
+/* Main page element styles */
+#header {
+  margin-bottom: 10px;
+  text-align: right;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+#header h1,
+#left-sidebar h1 {
+	font-size: 14px;
+	font-weight:bold;
+	/*text-transform:uppercase;*/
+  margin-bottom: 10px;
+}
+#header img.logo {
+  vertical-align: middle;
+}
+#header .site-name {
+}
+#header .site-slogan {
+}
+#header .navigation {
+}
+#header .navigation .navigation-primary {
+	font-size:12px;
+	font-weight:bold;
+}
+#header .navigation .navigation-secondary {
+}
+#header form.search {
+  margin-top: 10px;
+}
+
+#container {
+  xclear: both;
+}
+
+.sidebar {
+}
+#left-sidebar {
+  float: left;
+  width: 180px; /*width:20%; */
+}
+#right-sidebar {
+  float: left;
+  width: 20%;
+}
+
+#page {
+  float: left;
+  overflow: hidden;
+  background-color: #ffffff;
+  min-height: 500px;
+}
+
+#footer {
+  clear: both;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* Common page items */
+#page h2.title {
+	margin-bottom: 25px;
+	text-decoration:underline;
+}
+#page .content {
+	width: 700px;
+}
+#page .mission {
+  padding: 20px;
+  font-size: 144%;
+}
+#page .tabs {
+}
+#page .help {
+}
+#page .messages {
+  color: #333333;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+#page .error {
+  border-color: #ff0000;
+}
+
+.breadcrumb,
+.breadcrumb a {
+	font-size: 10px;
+	color:#999;
+}
+
+/* Blocks */
+.block {
+	margin-top:25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#right-sidebar .block {
+	border-left:1px solid #999;
+	padding-left: 15px;
+}
+.block .title {
+  font-weight: bold;
+  margin-bottom:7px;
+}
+.block .content {
+  padding-bottom: 10px;
+}
+.user-login-block {
+  text-align: left;
+}
+
+/* Nodes */
+.node {
+  margin-bottom: 10px;
+}
+.node h3.title {
+}
+.node .content {
+}
+.node .picture {
+  float: left;
+  padding: 4px;
+  margin-right: 4px;
+  background-color: #f0f0f0;
+}
+.node .date {
+}
+.node .author {
+}
+.node .terms {
+}
+.node .links {
+  clear: left;
+}
+.node-sticky {
+}
+.node table {
+  width: 100%;
+}
+
+/* Boxes (comment list container) */
+.box {
+}
+.box h3.title {
+}
+.box .content {
+}
+
+/* Comments */
+.comment h4.title {
+}
+.comment .new {
+}
+.comment .content {
+}
+.comment .picture {
+  float: left;
+  padding: 4px;
+  margin-right: 4px;
+  background-color: #f0f0f0;
+}
+.comment .date {
+}
+.comment .author {
+}
+.comment .links {
+  clear: left;
+}
+.comment-new {
+}
+
+/* Customize different page layouts */
+#header {
+  margin-left: 0;
+  margin-right: auto;
+}
+body #header {
+	width:1000px;
+}
+/*
+body.sidebar-left #header {
+  width: 80%;
+}
+body.sidebar-right #header {
+  width: 80%;
+}
+body.two-sidebars #header {
+  width: 60%;
+}
+body.no-sidebars #header {
+  width: 100%;
+}
+*/
+body.sidebar-left #page {
+  width: 77%;
+  padding-left: 2%;
+}
+body.sidebar-right #page {
+  width: 77%;
+  padding-right: 2%;
+}
+body.two-sidebars #page {
+  width: 55%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+body.no-sidebars #page {
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  float: none;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+body.sidebar-left .footer {
+  width: 80%;
+}
+body.sidebar-right .footer {
+  width: 80%;
+}
+body.two-sidebars .footer {
+  width: 60%;
+}
+body.no-sidebars .footer {
+  width: 100%;
+}
+
+/* Fixed-width sidebars, fixed center column. */
+/*
+#left-sidebar {
+  float: left;
+  width: 120px;
+}
+#right-sidebar {
+  float: left;
+  width: 100px;
+}
+
+#header,
+body.sidebar-left #header,
+body.sidebar-right #header,
+body.two-sidebars #header,
+body.no-sidebars #header {
+  width: 760px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+body.sidebar-left #page,
+body.sidebar-right #page,
+body.two-sidebars #page,
+body.no-sidebars #page {
+  float: left;
+  width: 440px;
+}
+
+.footer,
+body.sidebar-left .footer,
+body.sidebar-right .footer,
+body.two-sidebars .footer,
+body.no-sidebars .footer {
+  width: 760px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+*/
+
+/* Fixed-width sidebars, fluid center column. */
+/*
+#left-sidebar{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 160px;
+}
+#right-sidebar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 160px;
+}
+
+#header,
+body.sidebar-left #header,
+body.sidebar-right #header,
+body.two-sidebars #header,
+body.no-sidebars #header {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+body.sidebar-left #page,
+body.sidebar-right #page,
+body.two-sidebars #page,
+body.no-sidebars #page {
+  float: none;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.footer,
+body.sidebar-left .footer,
+body.sidebar-right .footer,
+body.two-sidebars .footer,
+body.no-sidebars .footer {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+*/
+/* end custom layouts */
+
+/* Override drupal.css */
+#user-login-form {
+  text-align: left;
+}
+
+/* custom telic stuff */
+.sidebar a.project-image img 	{
+	margin-bottom: 20px;
+}
+
+.field-field-display-date .field-item {
+	margin-bottom:25px;
+}
+
+#page .block .title {
+	font-size:120%;
+}
+
+#page .block a {
+	text-decoration:underline;
+}
+
+#page .block .views-field-field-display-date-value {
+	color:#999;
+}
+
+.view-frontpage .node {
+	margin-bottom:30px;
+	border-bottom: 1px solid #CCC;
+	padding-bottom:20px;
+	width:680px;
+}
+
+
+
+#block-block-7 {
+	float:right;
+	margin-top:6px;
+	padding:0px;
+}
+
+#block-block-7 input {
+	float:left;
+}

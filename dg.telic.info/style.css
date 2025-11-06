@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, address, th, td {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color:#666666;
+	font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size:62.5%;
+	line-height:1.6em;
+}
+
+#wrapper {
+	width: 100%;
+	
+}
+
+#wrapper .header {
+	height: 100px;
+	width: 100%;
+	z-index: 15;
+	position: absolute;
+	margin-top: 2.0em;
+}
+
+#wrapper .header h1 {
+	font-size: 3.6em;
+	line-height: 1em;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	padding-left: 6%;
+}
+
+#wrapper .header h1 a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+#wrapper .header .telic {
+	font-size: .35em;
+	margin: 0px;
+	padding-left:0.3em;
+	line-height: 1.5em;
+}
+
+#wrapper .header .telic a{
+	color:#CCCCCC;
+	text-decoration: none;
+}
+
+#wrapper .whitebg h1,
+#wrapper .whitebg h1 a {
+	color: #000000;
+}
+
+#wrapper .header .telic a:hover{
+	color:#666666;
+}
+
+#wrapper .header .top_right_navigation {
+	float: right;
+	width: 250px;
+	padding-right: 10px;
+}
+
+#wrapper .header .top_right_navigation a{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+#wrapper .header .top_right_navigation a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#wrapper .header .dark a{
+	color: #333333;
+	text-decoration: none;
+}
+
+.overprint {
+	font-size: 36px;
+	color: #FFFFFF;
+	position: relative;
+	top: -400px;
+	font-weight: bold;
+	width: 500px;
+	left: 200px;
+	line-height: 36px;
+}
+
+#wrapper .header .top_right_navigation a:hover{
+	color:#666666;
+}
+
+#wrapper .header .top_right_navigation ul {
+	float: right;
+	display: inline;
+	font-size: 11px;
+	list-style: none;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+#wrapper .header .top_right_navigation ul li {
+	float: left;
+	padding-left:15px;
+}
+
+#wrapper .exhibitions {
+	position:absolute;
+	z-index:5;
+	width:auto;
+	/*left:8%;*/
+	right:2%;
+	top:15%;
+	
+	color:#FFFFFF;
+	line-height:2em;
+}
+
+#wrapper .exhibitions ul {
+	list-style: none;
+	font-weight: bold;
+}
+
+#wrapper .exhibitions ul li {
+	text-align:right;
+}
+
+#wrapper .exhibitions ul li.current {
+	background:#FF00FF;
+}
+
+#wrapper .exhibitions li.show .month{
+	display: inline;
+	font-size:2em;
+	color:#CCCCCC;
+	font-weight:100;
+	vertical-align:text-bottom;
+	padding-left:1em;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#wrapper .exhibitions li.show a{
+	padding-left:1em;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:2em;
+}
+
+#wrapper .exhibitions li.year  {
+	font-size:2em;
+	font-weight:100;
+	color:#CCCCCC;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* displays of image grids */
+
+
+.grid2x2 {
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	min-width:900px;
+	position:absolute;
+	top:0;
+}
+
+.grid1x4 {
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	width:50%;
+	min-width:450px;
+	position:absolute;
+	top:0;
+}
+
+.grid1x4 .image-container {
+	position:relative;
+	width: 100%;
+	display: inline;
+	float:left;
+	padding:.6%;
+	margin:0;
+}
+
+.grid1x4 .image-container .overprint {
+	position:absolute;
+	display:inline;
+	color:#ffffff;
+	z-index:1;
+	font-size: 18px;
+	top:88%;
+	left:50%;
+	line-height:16px;	
+	vertical-align:bottom;
+}
+
+
+.grid2x2 .image-container {
+	width: 49.4%;
+	display: inline;
+	float:left;
+	padding:.3%;
+	margin:0;
+}
+
+
+
+.grid2x2 .image-container img,
+.grid1x4 .image-container img,
+.right-column .image-container img {
+	width: 100%;
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+.right-column .image-credits {
+	font-size: 0.8em;
+	margin-bottom:30px;
+}
+
+/* right column */
+
+.right-column {
+	top:120px;	/* ! */
+	left: 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	position: absolute;
+	width: 43%;
+	padding-top: 2%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	padding-left: 4%;
+}
+
+.right-column .title {
+	color:#333;
+	font-size:2em;
+	font-weight:bold;
+	margin-bottom:1em;
+}
+
+.right-column .text {
+	line-height:1em;
+}
+
+.right-column .text p {
+	margin-bottom:1em;
+}
+
+.right-column .image-container {
+	position:relative;
+	width: 96%;
+	display: inline;
+	float:left;
+	padding:2%;
+	margin:0;
+}
+
+/* individual exhibitioin */
+
+.pushed-down {
+	top:120px;	/* 15% */
+}
+
+.grid1x4 .image-container .caption {
+	display:block;
+	padding-left:4%;
+	padding-bottom:1em;
+	color:#666666;
+	font-size: 1em;
+	line-height:1em;	
+}
+
+.right-column .dates {
+	font-size:1em;
+	color:#999999;
+	padding-bottom:2em;
+}
+
+.right-column .publication {
+	font-size:0.8em;
+	color:#333333;
+	padding-bottom:2em;
+}
